@@ -17,6 +17,7 @@ git merge
 git branch
 git branch -d <branch_name>             // delete branch
 
+// turn back to older commit, clear others in the way
 git reset --soft <to_commit>
 git reset --mixed <to_commit>
 git reset --hard <to_commit>
